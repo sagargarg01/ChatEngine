@@ -4,8 +4,13 @@
   "description": "learning to store chats in mongoDB",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Sagar Garg",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.6.1",
+    "socket.io": "^2.3.0"
+  }
 }
